@@ -26,8 +26,7 @@ class bst
 	void search_del(node *&, int , node *&); //this function gets the node to be deleted and its parent
 	void delete_node(node *&, int); //this deletes the node with help of search_del and inoder_successor functions
 	node* inoder_successor(node*);	//this returns the inorder successor of node to deleted which has 2 childrens
-
-
+	
 
 	public:
 	bst()
